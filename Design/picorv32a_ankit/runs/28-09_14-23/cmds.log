@@ -1,0 +1,32 @@
+Mon Sep 30 19:42:08 UTC 2024 - Executing "python3 /openLANE_flow/scripts/extract_metal_layers.py -t /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef -o /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/tmp/met_layers_list.txt"
+
+Mon Sep 30 19:42:08 UTC 2024 - Executing "/openLANE_flow/scripts/mergeLef.py -i /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef {/home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd__fill_12.lef /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd__decap_12.lef /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd__fakediode_2.lef} -o /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/tmp/merged_unpadded.lef |& tee >&@stdout"
+
+Mon Sep 30 19:42:08 UTC 2024 - Executing "/openLANE_flow/scripts/mergeLef.py -i /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/tmp/merged_unpadded.lef /openLANE_flow/designs/picorv32a_ankit/src/sky130A_ankit_vsdinv.lef -o /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/tmp/merged_unpadded.lef |& tee >&@stdout"
+
+Mon Sep 30 19:42:09 UTC 2024 - Executing "/openLANE_flow/scripts/libtrim.pl /openLANE_flow/designs/picorv32a_ankit/src/sky130_fd_sc_hd__typical.lib /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/tmp/trimmed.lib.exclude.list > /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/tmp/trimmed.lib"
+
+Mon Sep 30 19:42:09 UTC 2024 - Executing "echo {openlane v0.21} > /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/OPENLANE_VERSION"
+
+Mon Sep 30 19:42:41 UTC 2024 - Executing "sed -E {s/^([[:space:]]+)pg_pin(.*)/\1pin\2\n\1    direction : "inout";/g} /openLANE_flow/designs/picorv32a_ankit/src/sky130_fd_sc_hd__typical.lib > /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/tmp/sky130_fd_sc_hd__typical.no_pg.lib"
+
+Mon Sep 30 19:42:41 UTC 2024 - Executing "yosys -c /openLANE_flow/scripts/synth.tcl -l /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/logs/synthesis/1-yosys.log |& tee >&@stdout"
+
+Mon Sep 30 19:43:30 UTC 2024 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/picorv32a_ankit\/runs\/28-09_14-23\/results\/synthesis\/picorv32a_ankit.synthesis.v/} /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/config.tcl"
+
+Mon Sep 30 19:43:30 UTC 2024 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 0/} /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/config.tcl"
+
+Mon Sep 30 19:43:30 UTC 2024 - Executing "sed -i /defparam/d /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/results/synthesis/picorv32a_ankit.synthesis.v"
+
+Mon Sep 30 19:43:30 UTC 2024 - Executing "sta /openLANE_flow/scripts/sta.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/logs/synthesis/2-opensta"
+
+Mon Sep 30 19:43:45 UTC 2024 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/logs/floorplan/3-verilog2def.openroad.log"
+
+Mon Sep 30 19:43:46 UTC 2024 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_ioplacer.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/logs/floorplan/4-ioPlacer.log"
+
+Mon Sep 30 19:43:48 UTC 2024 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_replace.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/logs/placement/5-replace.log"
+
+Mon Sep 30 19:43:58 UTC 2024 - Executing "openroad -exit /openLANE_flow/scripts/openroad/or_basic_mp.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/logs/placement/6-basic_mp.log"
+
+Mon Sep 30 19:44:00 UTC 2024 - Executing "python3 /openLANE_flow/report_generation_wrapper.py -d /openLANE_flow/designs/picorv32a_ankit -dn picorv32a_ankit -t 28-09_14-23 -o /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/reports/final_summary_report.csv -m /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/reports/manufacturability_report.rpt -rs /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/reports/runtime_summary_report.rpt -r /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23"
+

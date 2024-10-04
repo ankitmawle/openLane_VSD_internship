@@ -1,0 +1,56 @@
+[INFO]: Current run directory is /openLANE_flow/designs/picorv32a_ankit/runs/01-10_06-50
+[INFO]: Preparing LEF Files
+[INFO]: Extracting the number of available metal layers from /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef
+[INFO]: The number of available metal layers is 6
+[INFO]: The available metal layers are li1 met1 met2 met3 met4 met5
+[INFO]: Merging LEF Files...
+[INFO]: Merging the following extra LEFs: /openLANE_flow/designs/picorv32a_ankit/src/sky130A_ankit_vsdinv.lef
+[INFO]: Trimming Liberty...
+[INFO]: Generating Exclude List...
+[INFO]: Storing configs into config.tcl ...
+[INFO]: Preparation complete
+[INFO]: Running Synthesis...
+[INFO]: current step index: 1
+[INFO]: Changing netlist from 0 to /openLANE_flow/designs/picorv32a_ankit/runs/01-10_06-50/results/synthesis/picorv32a_ankit.synthesis.v
+[INFO]: Running Static Timing Analysis...
+[INFO]: current step index: 2
+[INFO]: Synthesis was successful
+[INFO]: Running Floorplanning...
+[INFO]: Running Initial Floorplanning...
+[INFO]: current step index: 3
+[INFO]: Core area width: 533.14
+[INFO]: Core area height: 533.12
+[INFO]: Changing layout from 0 to /openLANE_flow/designs/picorv32a_ankit/runs/01-10_06-50/tmp/floorplan/3-verilog2def_openroad.def
+[INFO]: Running IO Placement...
+[INFO]: current step index: 4
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/01-10_06-50/tmp/floorplan/3-verilog2def_openroad.def to /openLANE_flow/designs/picorv32a_ankit/runs/01-10_06-50/tmp/floorplan/4-ioPlacer.def
+[INFO]: Running Global Placement...
+[INFO]: current step index: 5
+[INFO]: Global placement was successful
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/01-10_06-50/tmp/floorplan/4-ioPlacer.def to /openLANE_flow/designs/picorv32a_ankit/runs/01-10_06-50/tmp/placement/5-replace.def
+[INFO]: Running Basic Macro Placement
+[INFO]: current step index: 6
+[ERROR]: during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_basic_mp.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/01-10_06-50/logs/placement/6-basic_mp.log"
+[ERROR]: Exit code: 1
+[ERROR]: Last 10 lines:
+child process exited abnormally
+
+[ERROR]: Please check openroad  log file
+[ERROR]: Dumping to /openLANE_flow/designs/picorv32a_ankit/runs/01-10_06-50/error.log
+[INFO]: Calculating Runtime From the Start...
+[INFO]: Flow failed for picorv32a_ankit/01-10_06-50 in 0h2m46s
+[INFO]: Generating Final Summary Report...
+[INFO]: Design Name: picorv32a_ankit
+Run Directory: /openLANE_flow/designs/picorv32a_ankit/runs/01-10_06-50
+Source not found.
+----------------------------------------
+
+LVS Summary:
+Source: /openLANE_flow/designs/picorv32a_ankit/runs/01-10_06-50/results/lvs/picorv32a_ankit.lvs_parsed.gds.log
+Source not found.
+----------------------------------------
+
+Antenna Summary:
+No antenna report found.
+[INFO]: check full report here: /openLANE_flow/designs/picorv32a_ankit/runs/01-10_06-50/reports/final_summary_report.csv
+[ERROR]: Flow Failed.

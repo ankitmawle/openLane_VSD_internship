@@ -1,0 +1,10 @@
+Tue Oct 01 18:51:28 UTC 2024 - Executing "python3 /openLANE_flow/scripts/extract_metal_layers.py -t /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef -o /openLANE_flow/designs/picorv32a_ankit/runs/01-10_18-51/tmp/met_layers_list.txt"
+
+Tue Oct 01 18:51:28 UTC 2024 - Executing "/openLANE_flow/scripts/mergeLef.py -i /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef {/home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_fd_sc_hd.lef /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd__fill_12.lef /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd__decap_12.lef /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef/sky130_ef_sc_hd__fakediode_2.lef} -o /openLANE_flow/designs/picorv32a_ankit/runs/01-10_18-51/tmp/merged_unpadded.lef |& tee >&@stdout"
+
+Tue Oct 01 18:51:28 UTC 2024 - Executing "/openLANE_flow/scripts/mergeLef.py -i /openLANE_flow/designs/picorv32a_ankit/runs/01-10_18-51/tmp/merged_unpadded.lef /openLANE_flow/designs/picorv32a_ankit/src/sky130_vsdinv.lef -o /openLANE_flow/designs/picorv32a_ankit/runs/01-10_18-51/tmp/merged_unpadded.lef |& tee >&@stdout"
+
+Tue Oct 01 18:51:28 UTC 2024 - Executing "/openLANE_flow/scripts/libtrim.pl /openLANE_flow/designs/picorv32a_ankit/src/sky130_fd_sc_hd__typical.lib /openLANE_flow/designs/picorv32a_ankit/runs/01-10_18-51/tmp/trimmed.lib.exclude.list > /openLANE_flow/designs/picorv32a_ankit/runs/01-10_18-51/tmp/trimmed.lib"
+
+Tue Oct 01 18:51:28 UTC 2024 - Executing "echo {openlane v0.21} > /openLANE_flow/designs/picorv32a_ankit/runs/01-10_18-51/OPENLANE_VERSION"
+

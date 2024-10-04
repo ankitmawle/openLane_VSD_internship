@@ -1,0 +1,10 @@
+OpenROAD 0.9.0 1415572a73
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/picorv32a_ankit/runs/01-10_18-51/tmp/merged_unpadded.lef
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 441 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/picorv32a_ankit/runs/01-10_18-51/tmp/merged_unpadded.lef
+[ERROR ORD-0003] 0 does not exist.
+ORD-0003

@@ -1,0 +1,56 @@
+OpenROAD 0.9.0 1415572a73
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/picorv32a_ankit/runs/30-09_19-47/tmp/merged_unpadded.lef
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 441 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/picorv32a_ankit/runs/30-09_19-47/tmp/merged_unpadded.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/picorv32a_ankit/runs/30-09_19-47/tmp/placement/9-resizer.def
+Notice 0: Design: picorv32a_ankit
+Notice 0:     Created 409 pins.
+Notice 0:     Created 13790 components and 109081 component-terminals.
+Notice 0:     Created 15429 nets and 53879 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/picorv32a_ankit/runs/30-09_19-47/tmp/placement/9-resizer.def
+[WARNING DPL-0011] Could not find power special net.
+Design Stats
+--------------------------------
+total instances         13790
+multi row instances         0
+fixed instances             0
+nets                    15429
+design area          284227.6 u^2
+fixed area                0.0 u^2
+movable area         140283.3 u^2
+utilization                49 %
+utilization padded         74 %
+rows                      196
+row height                2.7 u
+
+[WARNING DPL-0019] detailed placement failed on _22027_
+Placement Analysis
+--------------------------------
+total displacement     1672.2 u
+average displacement      0.1 u
+max displacement        115.7 u
+original HPWL        656288.3 u
+legalized HPWL       669117.8 u
+delta HPWL                  2 %
+
+[INFO DPL-0020] Mirrored 5863 instances
+[INFO DPL-0021] HPWL before          669117.8 u
+[INFO DPL-0022] HPWL after           657461.8 u
+[INFO DPL-0023] HPWL delta               -1.7 %
+[WARNING DPL-0005] Overlap check failed (11).
+ _22126_ overlaps _21890_
+ _22282_ overlaps _21889_
+ _22284_ overlaps _21909_
+ _22446_ overlaps _19835_
+ output293 overlaps _22283_
+ output295 overlaps _22419_
+ output301 overlaps _22254_
+ output340 overlaps _22314_
+ output353 overlaps _22280_
+ output358 overlaps _22285_
+ output382 overlaps _22415_

@@ -1,0 +1,28 @@
+during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/optimize/logs/floorplan/1-verilog2def.openroad.log"
+Last 10 lines:
+child process exited abnormally
+
+during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/optimize/logs/floorplan/2-verilog2def.openroad.log"
+Last 10 lines:
+child process exited abnormally
+
+during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_basic_mp.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/optimize/logs/placement/6-basic_mp.log"
+Last 10 lines:
+child process exited abnormally
+
+during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_opendp.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/optimize/logs/placement/13-opendp.log"
+Last 10 lines:
+child process exited abnormally
+
+during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_tapcell.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/optimize/logs/floorplan/17-tapcell.log"
+Last 10 lines:
+child process exited abnormally
+
+during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_opendp.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/optimize/logs/placement/24-opendp.log"
+Last 10 lines:
+child process exited abnormally
+
+during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_opendp.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/optimize/logs/placement/31-opendp.log"
+Last 10 lines:
+child process exited abnormally
+

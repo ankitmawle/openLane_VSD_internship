@@ -1,0 +1,1175 @@
+OpenROAD 0.9.0 1415572a73
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/picorv32a_ankit/runs/run_cts/tmp/merged_unpadded.lef
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 441 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/picorv32a_ankit/runs/run_cts/tmp/merged_unpadded.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/picorv32a_ankit/runs/run_cts/tmp/placement/18-resizer.def
+Notice 0: Design: picorv32a_ankit
+Notice 0:     Created 409 pins.
+Notice 0:     Created 31681 components and 194395 component-terminals.
+Notice 0:     Created 25348 nets and 83853 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/picorv32a_ankit/runs/run_cts/tmp/placement/18-resizer.def
+[WARNING DPL-0011] Could not find power special net.
+Design Stats
+--------------------------------
+total instances         31681
+multi row instances         0
+fixed instances          6435
+nets                    25348
+design area          429693.4 u^2
+fixed area             9257.6 u^2
+movable area         239324.5 u^2
+utilization                57 %
+utilization padded         87 %
+rows                      241
+row height                2.7 u
+
+[WARNING DPL-0019] detailed placement failed on _33329_
+[WARNING DPL-0018] detailed placement failed on output188.
+[WARNING DPL-0018] detailed placement failed on output215.
+[WARNING DPL-0018] detailed placement failed on output229.
+[WARNING DPL-0018] detailed placement failed on output240.
+[WARNING DPL-0019] detailed placement failed on _37571_
+[WARNING DPL-0018] detailed placement failed on output271.
+[WARNING DPL-0019] detailed placement failed on _35907_
+[WARNING DPL-0019] detailed placement failed on _39014_
+[WARNING DPL-0018] detailed placement failed on output322.
+[WARNING DPL-0018] detailed placement failed on output342.
+[WARNING DPL-0018] detailed placement failed on output343.
+[WARNING DPL-0018] detailed placement failed on output344.
+[WARNING DPL-0018] detailed placement failed on output345.
+[WARNING DPL-0019] detailed placement failed on _31962_
+[WARNING DPL-0018] detailed placement failed on output361.
+[WARNING DPL-0018] detailed placement failed on output363.
+[WARNING DPL-0018] detailed placement failed on output365.
+[WARNING DPL-0018] detailed placement failed on output378.
+[WARNING DPL-0018] detailed placement failed on output394.
+[WARNING DPL-0019] detailed placement failed on _37950_
+[WARNING DPL-0018] detailed placement failed on output406.
+[WARNING DPL-0019] detailed placement failed on _38705_
+[WARNING DPL-0019] detailed placement failed on _31165_
+[WARNING DPL-0019] detailed placement failed on _30675_
+[WARNING DPL-0019] detailed placement failed on _31443_
+[WARNING DPL-0019] detailed placement failed on _31155_
+[WARNING DPL-0019] detailed placement failed on _31719_
+[WARNING DPL-0018] detailed placement failed on _31549_.
+[WARNING DPL-0019] detailed placement failed on _30955_
+[WARNING DPL-0019] detailed placement failed on _31514_
+[WARNING DPL-0019] detailed placement failed on _32403_
+[WARNING DPL-0019] detailed placement failed on _33594_
+[WARNING DPL-0019] detailed placement failed on _34349_
+[WARNING DPL-0019] detailed placement failed on _34006_
+[WARNING DPL-0019] detailed placement failed on _36538_
+[WARNING DPL-0019] detailed placement failed on _30620_
+[WARNING DPL-0019] detailed placement failed on _34396_
+[WARNING DPL-0019] detailed placement failed on _30623_
+[WARNING DPL-0019] detailed placement failed on _33210_
+[WARNING DPL-0019] detailed placement failed on _35651_
+[WARNING DPL-0019] detailed placement failed on _35652_
+[WARNING DPL-0019] detailed placement failed on _36400_
+[WARNING DPL-0019] detailed placement failed on _37593_
+[WARNING DPL-0019] detailed placement failed on _36463_
+[WARNING DPL-0019] detailed placement failed on _35253_
+[WARNING DPL-0019] detailed placement failed on _36005_
+[WARNING DPL-0019] detailed placement failed on _35764_
+[WARNING DPL-0019] detailed placement failed on _35952_
+[WARNING DPL-0019] detailed placement failed on _37866_
+[WARNING DPL-0019] detailed placement failed on _36766_
+[WARNING DPL-0019] detailed placement failed on _35066_
+[WARNING DPL-0019] detailed placement failed on _36988_
+[WARNING DPL-0019] detailed placement failed on _33123_
+[WARNING DPL-0019] detailed placement failed on _36808_
+[WARNING DPL-0019] detailed placement failed on _37205_
+[WARNING DPL-0019] detailed placement failed on _37274_
+[WARNING DPL-0019] detailed placement failed on _37263_
+[WARNING DPL-0019] detailed placement failed on _36724_
+[WARNING DPL-0019] detailed placement failed on _37045_
+[WARNING DPL-0019] detailed placement failed on _37487_
+[WARNING DPL-0019] detailed placement failed on _36883_
+[WARNING DPL-0019] detailed placement failed on _37129_
+[WARNING DPL-0019] detailed placement failed on _37986_
+[WARNING DPL-0019] detailed placement failed on _37529_
+[WARNING DPL-0019] detailed placement failed on _37405_
+[WARNING DPL-0019] detailed placement failed on _37784_
+[WARNING DPL-0019] detailed placement failed on _37150_
+[WARNING DPL-0019] detailed placement failed on _37670_
+[WARNING DPL-0019] detailed placement failed on _37508_
+[WARNING DPL-0019] detailed placement failed on _38627_
+[WARNING DPL-0019] detailed placement failed on _38281_
+[WARNING DPL-0019] detailed placement failed on _36368_
+[WARNING DPL-0019] detailed placement failed on _37618_
+[WARNING DPL-0019] detailed placement failed on _37743_
+[WARNING DPL-0019] detailed placement failed on _38560_
+[WARNING DPL-0019] detailed placement failed on _36882_
+[WARNING DPL-0019] detailed placement failed on _36863_
+[WARNING DPL-0019] detailed placement failed on _37266_
+[WARNING DPL-0019] detailed placement failed on _37180_
+[WARNING DPL-0019] detailed placement failed on _35892_
+[WARNING DPL-0019] detailed placement failed on _37699_
+[WARNING DPL-0019] detailed placement failed on _38182_
+[WARNING DPL-0019] detailed placement failed on _38553_
+[WARNING DPL-0019] detailed placement failed on _39227_
+[WARNING DPL-0019] detailed placement failed on _36591_
+[WARNING DPL-0019] detailed placement failed on _37097_
+[WARNING DPL-0019] detailed placement failed on _37818_
+[WARNING DPL-0019] detailed placement failed on _39218_
+[WARNING DPL-0019] detailed placement failed on _38940_
+[WARNING DPL-0019] detailed placement failed on _38863_
+[WARNING DPL-0019] detailed placement failed on _39349_
+[WARNING DPL-0019] detailed placement failed on _37893_
+[WARNING DPL-0019] detailed placement failed on _37000_
+[WARNING DPL-0019] detailed placement failed on _37418_
+[WARNING DPL-0019] detailed placement failed on _40105_
+[WARNING DPL-0019] detailed placement failed on _37183_
+[WARNING DPL-0019] detailed placement failed on _37730_
+[WARNING DPL-0019] detailed placement failed on _37068_
+[WARNING DPL-0019] detailed placement failed on _37010_
+[WARNING DPL-0019] detailed placement failed on _31535_
+[WARNING DPL-0019] detailed placement failed on _37655_
+[WARNING DPL-0019] detailed placement failed on _40190_
+[WARNING DPL-0019] detailed placement failed on _36089_
+[WARNING DPL-0019] detailed placement failed on _36707_
+[WARNING DPL-0019] detailed placement failed on _40742_
+[WARNING DPL-0019] detailed placement failed on _36975_
+[WARNING DPL-0019] detailed placement failed on _31871_
+[WARNING DPL-0019] detailed placement failed on _38740_
+[WARNING DPL-0019] detailed placement failed on _37503_
+[WARNING DPL-0019] detailed placement failed on _35938_
+[WARNING DPL-0018] detailed placement failed on _44638_.
+[WARNING DPL-0019] detailed placement failed on _31609_
+[WARNING DPL-0019] detailed placement failed on _39232_
+[WARNING DPL-0019] detailed placement failed on _30954_
+[WARNING DPL-0018] detailed placement failed on input21.
+[WARNING DPL-0018] detailed placement failed on input36.
+[WARNING DPL-0019] detailed placement failed on _36877_
+Placement Analysis
+--------------------------------
+total displacement   256035.4 u
+average displacement      8.1 u
+max displacement        498.8 u
+original HPWL        3728874.5 u
+legalized HPWL       4026436.5 u
+delta HPWL                  8 %
+
+[INFO DPL-0020] Mirrored 11878 instances
+[INFO DPL-0021] HPWL before          4026436.5 u
+[INFO DPL-0022] HPWL after           4006985.4 u
+[INFO DPL-0023] HPWL delta               -0.5 %
+[WARNING DPL-0004] Placed in rows check failed (18).
+ input21
+ input36
+ output188
+ output215
+ output229
+ output240
+ output271
+ output322
+ output342
+ output343
+ output344
+ output345
+ output361
+ output363
+ output365
+ output378
+ output394
+ output406
+[WARNING DPL-0005] Overlap check failed (976).
+ _31549_ overlaps _31165_
+ _31625_ overlaps _31417_
+ _31830_ overlaps _31609_
+ _32398_ overlaps _31603_
+ _32403_ overlaps _30233_
+ _32410_ overlaps _31474_
+ _32413_ overlaps _31846_
+ _32419_ overlaps _32079_
+ _32424_ overlaps _26194_
+ _32457_ overlaps _32422_
+ _32498_ overlaps _32408_
+ _32507_ overlaps _32408_
+ _32510_ overlaps _32417_
+ _32526_ overlaps _32417_
+ _32530_ overlaps _32412_
+ _32541_ overlaps _32405_
+ _32570_ overlaps _32405_
+ _32571_ overlaps _32413_
+ _32583_ overlaps _32426_
+ _32629_ overlaps _32540_
+ _33329_ overlaps _31962_
+ _33378_ overlaps _32377_
+ _33594_ overlaps _33593_
+ _33598_ overlaps _32128_
+ _33995_ overlaps _33649_
+ _33997_ overlaps _29752_
+ _33998_ overlaps _33597_
+ _34000_ overlaps _33583_
+ _34001_ overlaps _33591_
+ _34002_ overlaps _33592_
+ _34003_ overlaps _33651_
+ _34004_ overlaps _33994_
+ _34006_ overlaps _25509_
+ _34009_ overlaps _33990_
+ _34011_ overlaps _33990_
+ _34012_ overlaps _30402_
+ _34027_ overlaps _30904_
+ _34028_ overlaps _31613_
+ _34210_ overlaps _34017_
+ _34233_ overlaps _34016_
+ _34234_ overlaps _34006_
+ _34342_ overlaps _34331_
+ _34349_ overlaps _34017_
+ _34399_ overlaps _33602_
+ _34401_ overlaps _30483_
+ _34405_ overlaps _31709_
+ _34428_ overlaps _33130_
+ _34566_ overlaps _25462_
+ _34723_ overlaps _33588_
+ _34765_ overlaps _34722_
+ _34766_ overlaps _34718_
+ _34828_ overlaps _34720_
+ _34834_ overlaps _34396_
+ _35008_ overlaps _34720_
+ _35032_ overlaps _31004_
+ _35033_ overlaps _34396_
+ _35035_ overlaps _35001_
+ _35038_ overlaps _26178_
+ _35039_ overlaps _32828_
+ _35043_ overlaps _32576_
+ _35059_ overlaps _31148_
+ _35066_ overlaps _26142_
+ _35068_ overlaps _33216_
+ _35070_ overlaps _34721_
+ _35077_ overlaps _30506_
+ _35078_ overlaps _34732_
+ _35079_ overlaps _34716_
+ _35080_ overlaps _25462_
+ _35090_ overlaps _35067_
+ _35242_ overlaps _34951_
+ _35243_ overlaps _30616_
+ _35244_ overlaps _35071_
+ _35246_ overlaps _34953_
+ _35247_ overlaps _34970_
+ _35248_ overlaps _34978_
+ _35249_ overlaps _35065_
+ _35250_ overlaps _34827_
+ _35251_ overlaps _34985_
+ _35253_ overlaps _32094_
+ _35257_ overlaps _34037_
+ _35259_ overlaps _34006_
+ _35262_ overlaps _34070_
+ _35266_ overlaps _34331_
+ _35271_ overlaps _34010_
+ _35273_ overlaps _34007_
+ _35280_ overlaps _33210_
+ _35286_ overlaps _33210_
+ _35294_ overlaps _32536_
+ _35296_ overlaps _31627_
+ _35305_ overlaps _33770_
+ _35319_ overlaps _33587_
+ _35622_ overlaps _28764_
+ _35626_ overlaps _34757_
+ _35651_ overlaps _35623_
+ _35652_ overlaps _35642_
+ _35654_ overlaps _31704_
+ _35660_ overlaps _32749_
+ _35664_ overlaps _29602_
+ _35690_ overlaps _29603_
+ _35692_ overlaps _26160_
+ _35695_ overlaps _34091_
+ _35696_ overlaps _30904_
+ _35701_ overlaps _34198_
+ _35706_ overlaps _35653_
+ _35710_ overlaps _29765_
+ _35713_ overlaps _30902_
+ _35738_ overlaps _35651_
+ _35764_ overlaps _26705_
+ _35876_ overlaps _34743_
+ _35883_ overlaps _35704_
+ _35884_ overlaps _35705_
+ _35886_ overlaps _25465_
+ _35887_ overlaps _35631_
+ _35891_ overlaps _35650_
+ _35907_ overlaps _30445_
+ _35934_ overlaps _28790_
+ _35967_ overlaps _26165_
+ _36005_ overlaps _35729_
+ _36042_ overlaps _35723_
+ _36043_ overlaps _36000_
+ _36045_ overlaps _27980_
+ _36047_ overlaps _35683_
+ _36077_ overlaps _36001_
+ _36079_ overlaps _36041_
+ _36082_ overlaps _35728_
+ _36094_ overlaps _36001_
+ _36105_ overlaps _35996_
+ _36108_ overlaps _35999_
+ _36109_ overlaps _36008_
+ _36117_ overlaps _35996_
+ _36122_ overlaps _35995_
+ _36127_ overlaps _36010_
+ _36129_ overlaps _36008_
+ _36131_ overlaps _36010_
+ _36143_ overlaps _35989_
+ _36304_ overlaps _36048_
+ _36312_ overlaps _36048_
+ _36322_ overlaps _36039_
+ _36368_ overlaps _35946_
+ _36373_ overlaps _36133_
+ _36376_ overlaps _31539_
+ _36400_ overlaps _31645_
+ _36404_ overlaps _35926_
+ _36413_ overlaps _35899_
+ _36422_ overlaps _35767_
+ _36440_ overlaps _35680_
+ _36447_ overlaps _35702_
+ _36457_ overlaps _30403_
+ _36461_ overlaps _31602_
+ _36463_ overlaps _36016_
+ _36465_ overlaps _35935_
+ _36467_ overlaps _25474_
+ _36480_ overlaps _33134_
+ _36482_ overlaps _35950_
+ _36503_ overlaps _35684_
+ _36507_ overlaps _35952_
+ _36508_ overlaps _36484_
+ _36513_ overlaps _35275_
+ _36538_ overlaps _28764_
+ _36540_ overlaps _31380_
+ _36544_ overlaps _36492_
+ _36547_ overlaps _34526_
+ _36555_ overlaps _35632_
+ _36556_ overlaps _36488_
+ _36583_ overlaps _36432_
+ _36584_ overlaps _36432_
+ _36604_ overlaps _36479_
+ _36665_ overlaps _26098_
+ _36666_ overlaps _35952_
+ _36698_ overlaps _36484_
+ _36707_ overlaps _36399_
+ _36724_ overlaps _28746_
+ _36726_ overlaps _28765_
+ _36741_ overlaps _36487_
+ _36755_ overlaps _36066_
+ _36756_ overlaps _36058_
+ _36759_ overlaps _36032_
+ _36760_ overlaps _36069_
+ _36783_ overlaps _36777_
+ _36789_ overlaps _34427_
+ _36798_ overlaps _36766_
+ _36800_ overlaps _36772_
+ _36810_ overlaps _36773_
+ _36814_ overlaps _35670_
+ _36817_ overlaps _36766_
+ _36823_ overlaps _30484_
+ _36828_ overlaps _32292_
+ _36839_ overlaps _30897_
+ _36842_ overlaps _31156_
+ _36852_ overlaps _36821_
+ _36869_ overlaps _30123_
+ _36884_ overlaps _30213_
+ _36891_ overlaps _36863_
+ _36920_ overlaps _35703_
+ _36932_ overlaps _34559_
+ _36961_ overlaps _36444_
+ _36964_ overlaps _26092_
+ _36968_ overlaps _35921_
+ _36973_ overlaps _36434_
+ _36980_ overlaps _35703_
+ _36981_ overlaps _35659_
+ _36983_ overlaps _35659_
+ _36988_ overlaps _36982_
+ _36995_ overlaps _28709_
+ _37000_ overlaps _34008_
+ _37010_ overlaps _30142_
+ _37045_ overlaps _37043_
+ _37072_ overlaps _31825_
+ _37074_ overlaps _30558_
+ _37076_ overlaps _34743_
+ _37089_ overlaps _36512_
+ _37090_ overlaps _35765_
+ _37101_ overlaps _32273_
+ _37112_ overlaps _37111_
+ _37115_ overlaps _37100_
+ _37125_ overlaps _34560_
+ _37149_ overlaps _37110_
+ _37150_ overlaps _34717_
+ _37153_ overlaps _28184_
+ _37161_ overlaps _36031_
+ _37166_ overlaps _36030_
+ _37168_ overlaps _35992_
+ _37170_ overlaps _36033_
+ _37180_ overlaps _36475_
+ _37205_ overlaps _37162_
+ _37207_ overlaps _33217_
+ _37208_ overlaps _36830_
+ _37209_ overlaps _36841_
+ _37215_ overlaps _36826_
+ _37219_ overlaps _36803_
+ _37222_ overlaps _36402_
+ _37224_ overlaps _27927_
+ _37234_ overlaps _36422_
+ _37242_ overlaps _36433_
+ _37243_ overlaps _36421_
+ _37256_ overlaps _35889_
+ _37257_ overlaps _35912_
+ _37258_ overlaps _35905_
+ _37263_ overlaps _36450_
+ _37267_ overlaps _35991_
+ _37270_ overlaps _32824_
+ _37274_ overlaps _33217_
+ _37277_ overlaps _37275_
+ _37281_ overlaps _37018_
+ _37283_ overlaps _35925_
+ _37286_ overlaps _30198_
+ _37289_ overlaps _36745_
+ _37291_ overlaps _36879_
+ _37292_ overlaps _36878_
+ _37296_ overlaps _37086_
+ _37323_ overlaps _35979_
+ _37329_ overlaps _37019_
+ _37330_ overlaps _36977_
+ _37334_ overlaps _37077_
+ _37338_ overlaps _37009_
+ _37339_ overlaps _36987_
+ _37341_ overlaps _37080_
+ _37382_ overlaps _37264_
+ _37388_ overlaps _37290_
+ _37391_ overlaps _37336_
+ _37400_ overlaps _37302_
+ _37403_ overlaps _37268_
+ _37407_ overlaps _35943_
+ _37413_ overlaps _37018_
+ _37418_ overlaps _37013_
+ _37419_ overlaps _37395_
+ _37420_ overlaps _37277_
+ _37421_ overlaps _36742_
+ _37423_ overlaps _36734_
+ _37427_ overlaps _36893_
+ _37428_ overlaps _36731_
+ _37429_ overlaps _36743_
+ _37432_ overlaps _37412_
+ _37434_ overlaps _36734_
+ _37435_ overlaps _36731_
+ _37439_ overlaps _37409_
+ _37440_ overlaps _37012_
+ _37441_ overlaps _37044_
+ _37444_ overlaps _36893_
+ _37446_ overlaps _30910_
+ _37447_ overlaps _36743_
+ _37449_ overlaps _30924_
+ _37451_ overlaps _37046_
+ _37464_ overlaps _37046_
+ _37466_ overlaps _37455_
+ _37468_ overlaps _37280_
+ _37490_ overlaps _37487_
+ _37505_ overlaps _27975_
+ _37506_ overlaps _26094_
+ _37509_ overlaps _37487_
+ _37529_ overlaps _36886_
+ _37533_ overlaps _30519_
+ _37538_ overlaps _37238_
+ _37539_ overlaps _32832_
+ _37549_ overlaps _37523_
+ _37551_ overlaps _36883_
+ _37562_ overlaps _31536_
+ _37575_ overlaps _32160_
+ _37579_ overlaps _32198_
+ _37583_ overlaps _31831_
+ _37592_ overlaps _37575_
+ _37593_ overlaps _36460_
+ _37594_ overlaps _31602_
+ _37595_ overlaps _36836_
+ _37598_ overlaps _25469_
+ _37604_ overlaps _37099_
+ _37608_ overlaps _37102_
+ _37614_ overlaps _37103_
+ _37616_ overlaps _35252_
+ _37618_ overlaps _32098_
+ _37622_ overlaps _37146_
+ _37623_ overlaps _36827_
+ _37624_ overlaps _35892_
+ _37625_ overlaps _25480_
+ _37631_ overlaps _27931_
+ _37641_ overlaps _36326_
+ _37655_ overlaps _37654_
+ _37662_ overlaps _37148_
+ _37670_ overlaps _37141_
+ _37671_ overlaps _37200_
+ _37672_ overlaps _37214_
+ _37691_ overlaps _37230_
+ _37692_ overlaps _37665_
+ _37693_ overlaps _37201_
+ _37694_ overlaps _37241_
+ _37707_ overlaps _37530_
+ _37717_ overlaps _37530_
+ _37724_ overlaps _37543_
+ _37731_ overlaps _37025_
+ _37738_ overlaps _37533_
+ _37747_ overlaps _36729_
+ _37794_ overlaps _37462_
+ _37796_ overlaps _34708_
+ _37807_ overlaps _37185_
+ _37809_ overlaps _37405_
+ _37811_ overlaps _30543_
+ _37814_ overlaps _37289_
+ _37820_ overlaps _36813_
+ _37822_ overlaps _37405_
+ _37827_ overlaps _37283_
+ _37831_ overlaps _30909_
+ _37837_ overlaps _37819_
+ _37866_ overlaps _36713_
+ _37882_ overlaps _37006_
+ _37893_ overlaps _37889_
+ _37898_ overlaps _35930_
+ _37911_ overlaps _30219_
+ _37912_ overlaps _36672_
+ _37914_ overlaps _37005_
+ _37915_ overlaps _37491_
+ _37919_ overlaps _37488_
+ _37920_ overlaps _37217_
+ _37929_ overlaps _37495_
+ _37931_ overlaps _30223_
+ _37936_ overlaps _37248_
+ _37938_ overlaps _37244_
+ _37942_ overlaps _34577_
+ _37958_ overlaps _35256_
+ _37959_ overlaps _36917_
+ _37961_ overlaps _37567_
+ _37962_ overlaps _37784_
+ _37965_ overlaps _37784_
+ _37967_ overlaps _37189_
+ _37968_ overlaps _31676_
+ _37970_ overlaps _31611_
+ _37973_ overlaps _37584_
+ _37974_ overlaps _37139_
+ _37980_ overlaps _30299_
+ _37983_ overlaps _37585_
+ _37984_ overlaps _31615_
+ _37986_ overlaps _37609_
+ _37988_ overlaps _30739_
+ _37989_ overlaps _30782_
+ _37992_ overlaps _37784_
+ _37997_ overlaps _37206_
+ _38021_ overlaps _30783_
+ _38029_ overlaps _36157_
+ _38031_ overlaps _27978_
+ _38033_ overlaps _37633_
+ _38043_ overlaps _38007_
+ _38056_ overlaps _30418_
+ _38077_ overlaps _37688_
+ _38087_ overlaps _38080_
+ _38088_ overlaps _35879_
+ _38090_ overlaps _35873_
+ _38097_ overlaps _30530_
+ _38099_ overlaps _37749_
+ _38141_ overlaps _38078_
+ _38142_ overlaps _37748_
+ _38143_ overlaps _37770_
+ _38162_ overlaps _28702_
+ _38167_ overlaps _37679_
+ _38168_ overlaps _37679_
+ _38170_ overlaps _38078_
+ _38172_ overlaps _38078_
+ _38175_ overlaps _36992_
+ _38182_ overlaps _38169_
+ _38190_ overlaps _37739_
+ _38196_ overlaps _37508_
+ _38198_ overlaps _37508_
+ _38201_ overlaps _38177_
+ _38252_ overlaps _35658_
+ _38261_ overlaps _35648_
+ _38271_ overlaps _36866_
+ _38281_ overlaps _32088_
+ _38285_ overlaps _36520_
+ _38298_ overlaps _37116_
+ _38301_ overlaps _36835_
+ _38303_ overlaps _35945_
+ _38307_ overlaps _34757_
+ _38317_ overlaps _38073_
+ _38320_ overlaps _38076_
+ _38325_ overlaps _37134_
+ _38331_ overlaps _36181_
+ _38352_ overlaps _38277_
+ _38353_ overlaps _36763_
+ _38354_ overlaps _36748_
+ _38361_ overlaps _38062_
+ _38363_ overlaps _38026_
+ _38364_ overlaps _36558_
+ _38365_ overlaps _38004_
+ _38367_ overlaps _38050_
+ _38368_ overlaps _38058_
+ _38370_ overlaps _38367_
+ _38371_ overlaps _30146_
+ _38375_ overlaps _38061_
+ _38382_ overlaps _38005_
+ _38419_ overlaps _37619_
+ _38431_ overlaps _36691_
+ _38436_ overlaps _26652_
+ _38437_ overlaps _37947_
+ _38438_ overlaps _37964_
+ _38439_ overlaps _37948_
+ _38440_ overlaps _38362_
+ _38442_ overlaps _37960_
+ _38446_ overlaps _37932_
+ _38447_ overlaps _38060_
+ _38448_ overlaps _38041_
+ _38450_ overlaps _37253_
+ _38457_ overlaps _37925_
+ _38458_ overlaps _37189_
+ _38459_ overlaps _37510_
+ _38461_ overlaps _38437_
+ _38463_ overlaps _37745_
+ _38465_ overlaps _38042_
+ _38472_ overlaps _37960_
+ _38484_ overlaps _37743_
+ _38485_ overlaps _37746_
+ _38545_ overlaps _37979_
+ _38558_ overlaps _38438_
+ _38563_ overlaps _37743_
+ _38579_ overlaps _38560_
+ _38582_ overlaps _38560_
+ _38594_ overlaps _31112_
+ _38608_ overlaps _31514_
+ _38627_ overlaps _38241_
+ _38630_ overlaps _38242_
+ _38641_ overlaps _30620_
+ _38642_ overlaps _25450_
+ _38643_ overlaps _30934_
+ _38648_ overlaps _26177_
+ _38655_ overlaps _31002_
+ _38656_ overlaps _31005_
+ _38661_ overlaps _37568_
+ _38663_ overlaps _36882_
+ _38665_ overlaps _36722_
+ _38666_ overlaps _34761_
+ _38667_ overlaps _35644_
+ _38670_ overlaps _38668_
+ _38672_ overlaps _37537_
+ _38673_ overlaps _36863_
+ _38676_ overlaps _37546_
+ _38678_ overlaps _31007_
+ _38679_ overlaps _38669_
+ _38682_ overlaps _37570_
+ _38683_ overlaps _38672_
+ _38686_ overlaps _37540_
+ _38687_ overlaps _37686_
+ _38688_ overlaps _30907_
+ _38689_ overlaps _35980_
+ _38690_ overlaps _38277_
+ _38691_ overlaps _31929_
+ _38693_ overlaps _38351_
+ _38695_ overlaps _30726_
+ _38696_ overlaps _35973_
+ _38697_ overlaps _38342_
+ _38700_ overlaps _35946_
+ _38701_ overlaps _38324_
+ _38708_ overlaps _38699_
+ _38712_ overlaps _30296_
+ _38713_ overlaps _37760_
+ _38717_ overlaps _37803_
+ _38721_ overlaps _38316_
+ _38722_ overlaps _31416_
+ _38729_ overlaps _38698_
+ _38731_ overlaps _38726_
+ _38734_ overlaps _38351_
+ _38736_ overlaps _36358_
+ _38740_ overlaps _37638_
+ _38745_ overlaps _38034_
+ _38747_ overlaps _38694_
+ _38748_ overlaps _34708_
+ _38751_ overlaps _38014_
+ _38752_ overlaps _38751_
+ _38756_ overlaps _36558_
+ _38759_ overlaps _37704_
+ _38760_ overlaps _34008_
+ _38761_ overlaps _38728_
+ _38768_ overlaps _37818_
+ _38781_ overlaps _37818_
+ _38788_ overlaps _38746_
+ _38791_ overlaps _38746_
+ _38792_ overlaps _36952_
+ _38824_ overlaps _26073_
+ _38829_ overlaps _33299_
+ _38832_ overlaps _26074_
+ _38834_ overlaps _36690_
+ _38836_ overlaps _38580_
+ _38837_ overlaps _38002_
+ _38838_ overlaps _38559_
+ _38841_ overlaps _37699_
+ _38842_ overlaps _38571_
+ _38843_ overlaps _38615_
+ _38845_ overlaps _38600_
+ _38847_ overlaps _38581_
+ _38863_ overlaps _31313_
+ _38865_ overlaps _37699_
+ _38872_ overlaps _38834_
+ _38940_ overlaps _37561_
+ _38947_ overlaps _37259_
+ _38955_ overlaps _38834_
+ _38960_ overlaps _37498_
+ _38961_ overlaps _37220_
+ _38994_ overlaps _38553_
+ _39004_ overlaps _38553_
+ _39006_ overlaps _38559_
+ _39007_ overlaps _37273_
+ _39008_ overlaps _30277_
+ _39013_ overlaps _35881_
+ _39015_ overlaps _36454_
+ _39016_ overlaps _38963_
+ _39020_ overlaps _36466_
+ _39023_ overlaps _32385_
+ _39028_ overlaps _36658_
+ _39029_ overlaps _37556_
+ _39030_ overlaps _36559_
+ _39032_ overlaps _25445_
+ _39037_ overlaps _36595_
+ _39039_ overlaps _36898_
+ _39040_ overlaps _36867_
+ _39041_ overlaps _36898_
+ _39042_ overlaps _36490_
+ _39043_ overlaps _38664_
+ _39044_ overlaps _36579_
+ _39045_ overlaps _36898_
+ _39047_ overlaps _36999_
+ _39049_ overlaps _36591_
+ _39050_ overlaps _36678_
+ _39051_ overlaps _38692_
+ _39052_ overlaps _36591_
+ _39053_ overlaps _36591_
+ _39057_ overlaps _37552_
+ _39058_ overlaps _37574_
+ _39061_ overlaps _36599_
+ _39065_ overlaps _38703_
+ _39067_ overlaps _36999_
+ _39068_ overlaps _38680_
+ _39069_ overlaps _38675_
+ _39070_ overlaps _38681_
+ _39071_ overlaps _35069_
+ _39075_ overlaps _37144_
+ _39078_ overlaps _38840_
+ _39080_ overlaps _37288_
+ _39082_ overlaps _38775_
+ _39083_ overlaps _30302_
+ _39086_ overlaps _36597_
+ _39087_ overlaps _36599_
+ _39089_ overlaps _37805_
+ _39090_ overlaps _37787_
+ _39091_ overlaps _37781_
+ _39093_ overlaps _36597_
+ _39094_ overlaps _36596_
+ _39095_ overlaps _36606_
+ _39099_ overlaps _27961_
+ _39101_ overlaps _37288_
+ _39108_ overlaps _38735_
+ _39109_ overlaps _37288_
+ _39113_ overlaps _37283_
+ _39139_ overlaps _38192_
+ _39142_ overlaps _38725_
+ _39147_ overlaps _38750_
+ _39148_ overlaps _38812_
+ _39154_ overlaps _38987_
+ _39157_ overlaps _39146_
+ _39159_ overlaps _38992_
+ _39160_ overlaps _38178_
+ _39163_ overlaps _34328_
+ _39166_ overlaps _38181_
+ _39167_ overlaps _39016_
+ _39168_ overlaps _38590_
+ _39170_ overlaps _39010_
+ _39173_ overlaps _38967_
+ _39204_ overlaps _38179_
+ _39206_ overlaps _39000_
+ _39207_ overlaps _39129_
+ _39208_ overlaps _38552_
+ _39212_ overlaps _39129_
+ _39213_ overlaps _39146_
+ _39218_ overlaps _39003_
+ _39223_ overlaps _37262_
+ _39227_ overlaps _37536_
+ _39275_ overlaps _39210_
+ _39288_ overlaps _38997_
+ _39289_ overlaps _39216_
+ _39291_ overlaps _38940_
+ _39293_ overlaps _39228_
+ _39299_ overlaps _37486_
+ _39302_ overlaps _31389_
+ _39303_ overlaps _37433_
+ _39306_ overlaps _37401_
+ _39315_ overlaps _37271_
+ _39320_ overlaps _37228_
+ _39323_ overlaps _39292_
+ _39324_ overlaps _38945_
+ _39331_ overlaps _38942_
+ _39333_ overlaps _39306_
+ _39334_ overlaps _38942_
+ _39336_ overlaps _38291_
+ _39337_ overlaps _38952_
+ _39338_ overlaps _38952_
+ _39349_ overlaps _38250_
+ _39352_ overlaps _27973_
+ _39353_ overlaps _35923_
+ _39364_ overlaps _26084_
+ _39411_ overlaps _37298_
+ _39414_ overlaps _39308_
+ _39415_ overlaps _39216_
+ _39416_ overlaps _38933_
+ _39440_ overlaps _39362_
+ _39447_ overlaps _36419_
+ _39449_ overlaps _39362_
+ _39452_ overlaps _31098_
+ _39454_ overlaps _39199_
+ _39455_ overlaps _39366_
+ _39458_ overlaps _38943_
+ _39463_ overlaps _38652_
+ _39466_ overlaps _38647_
+ _39467_ overlaps _39358_
+ _39470_ overlaps _37388_
+ _39473_ overlaps _37406_
+ _39474_ overlaps _37343_
+ _39476_ overlaps _37260_
+ _39482_ overlaps _39366_
+ _39484_ overlaps _31595_
+ _39491_ overlaps _39385_
+ _39492_ overlaps _38796_
+ _39498_ overlaps _39199_
+ _39501_ overlaps _36874_
+ _39506_ overlaps _36477_
+ _39510_ overlaps _36840_
+ _39511_ overlaps _36532_
+ _39512_ overlaps _36758_
+ _39513_ overlaps _38796_
+ _39514_ overlaps _38337_
+ _39515_ overlaps _36621_
+ _39516_ overlaps _35948_
+ _39517_ overlaps _36563_
+ _39523_ overlaps _36616_
+ _39526_ overlaps _30266_
+ _39529_ overlaps _39198_
+ _39530_ overlaps _30513_
+ _39531_ overlaps _37835_
+ _39532_ overlaps _39198_
+ _39533_ overlaps _37836_
+ _39539_ overlaps _37917_
+ _39540_ overlaps _37868_
+ _39541_ overlaps _37844_
+ _39543_ overlaps _38779_
+ _39544_ overlaps _38776_
+ _39545_ overlaps _37461_
+ _39555_ overlaps _37035_
+ _39556_ overlaps _39357_
+ _39557_ overlaps _37797_
+ _39559_ overlaps _37050_
+ _39560_ overlaps _38704_
+ _39562_ overlaps _37048_
+ _39565_ overlaps _37424_
+ _39567_ overlaps _37033_
+ _39568_ overlaps _37857_
+ _39569_ overlaps _39348_
+ _39570_ overlaps _38934_
+ _39575_ overlaps _39234_
+ _39576_ overlaps _37826_
+ _39577_ overlaps _38215_
+ _39578_ overlaps _37821_
+ _39600_ overlaps _39528_
+ _39621_ overlaps _39288_
+ _39622_ overlaps _37471_
+ _39626_ overlaps _38940_
+ _39674_ overlaps _38234_
+ _39675_ overlaps _37437_
+ _39681_ overlaps _37513_
+ _39683_ overlaps _37430_
+ _39685_ overlaps _37550_
+ _39686_ overlaps _37528_
+ _39690_ overlaps _37049_
+ _39704_ overlaps _37442_
+ _39706_ overlaps _37823_
+ _39712_ overlaps _37823_
+ _39716_ overlaps _37830_
+ _39717_ overlaps _38591_
+ _39723_ overlaps _37602_
+ _39726_ overlaps _36438_
+ _39727_ overlaps _37830_
+ _39729_ overlaps _37621_
+ _39732_ overlaps _32152_
+ _39734_ overlaps _26141_
+ _39735_ overlaps _28728_
+ _39736_ overlaps _35942_
+ _39739_ overlaps _37336_
+ _39749_ overlaps _37308_
+ _39752_ overlaps _39395_
+ _39754_ overlaps _37379_
+ _39758_ overlaps _37302_
+ _39765_ overlaps _31708_
+ _39766_ overlaps _25438_
+ _39767_ overlaps _31328_
+ _39768_ overlaps _31443_
+ _39789_ overlaps _31415_
+ _39792_ overlaps _37843_
+ _39819_ overlaps _36955_
+ _39822_ overlaps _38203_
+ _39829_ overlaps _39745_
+ _39841_ overlaps _37482_
+ _39869_ overlaps _39738_
+ _39872_ overlaps _39442_
+ _39874_ overlaps _39745_
+ _39879_ overlaps _37183_
+ _39889_ overlaps _37183_
+ _39909_ overlaps _37732_
+ _39931_ overlaps _39005_
+ _39940_ overlaps _38898_
+ _39977_ overlaps _37793_
+ _39978_ overlaps _39868_
+ _39987_ overlaps _38171_
+ _39990_ overlaps _38430_
+ _39991_ overlaps _37732_
+ _39992_ overlaps _38939_
+ _40001_ overlaps _38797_
+ _40003_ overlaps _37730_
+ _40029_ overlaps _39680_
+ _40035_ overlaps _37858_
+ _40037_ overlaps _30916_
+ _40038_ overlaps _38278_
+ _40039_ overlaps _38276_
+ _40050_ overlaps _37174_
+ _40054_ overlaps _37068_
+ _40058_ overlaps _37513_
+ _40060_ overlaps _37212_
+ _40062_ overlaps _33996_
+ _40064_ overlaps _37536_
+ _40065_ overlaps _38947_
+ _40067_ overlaps _38961_
+ _40068_ overlaps _37228_
+ _40069_ overlaps _37227_
+ _40072_ overlaps _36398_
+ _40076_ overlaps _37620_
+ _40077_ overlaps _39888_
+ _40078_ overlaps _25470_
+ _40080_ overlaps _37643_
+ _40082_ overlaps _36499_
+ _40086_ overlaps _39864_
+ _40091_ overlaps _39855_
+ _40094_ overlaps _37227_
+ _40096_ overlaps _37293_
+ _40101_ overlaps _37226_
+ _40104_ overlaps _26109_
+ _40105_ overlaps _26109_
+ _40107_ overlaps _39790_
+ _40108_ overlaps _40106_
+ _40111_ overlaps _38273_
+ _40114_ overlaps _36550_
+ _40120_ overlaps _39763_
+ _40121_ overlaps _33211_
+ _40123_ overlaps _31257_
+ _40125_ overlaps _37294_
+ _40127_ overlaps _37532_
+ _40128_ overlaps _31330_
+ _40130_ overlaps _37520_
+ _40135_ overlaps _37511_
+ _40139_ overlaps _27974_
+ _40144_ overlaps _25444_
+ _40153_ overlaps _31827_
+ _40160_ overlaps _27954_
+ _40166_ overlaps _37206_
+ _40168_ overlaps _37982_
+ _40170_ overlaps _37981_
+ _40172_ overlaps _36428_
+ _40175_ overlaps _36990_
+ _40177_ overlaps _38824_
+ _40178_ overlaps _38189_
+ _40180_ overlaps _38595_
+ _40181_ overlaps _38618_
+ _40183_ overlaps _37870_
+ _40186_ overlaps _38587_
+ _40190_ overlaps _37652_
+ _40200_ overlaps _37644_
+ _40203_ overlaps _38830_
+ _40205_ overlaps _38827_
+ _40226_ overlaps _38824_
+ _40228_ overlaps _38826_
+ _40231_ overlaps _37900_
+ _40251_ overlaps _37900_
+ _40257_ overlaps _40164_
+ _40377_ overlaps _40197_
+ _40383_ overlaps _40197_
+ _40388_ overlaps _40193_
+ _40396_ overlaps _37647_
+ _40401_ overlaps _37653_
+ _40436_ overlaps _37975_
+ _40451_ overlaps _40196_
+ _40452_ overlaps _38445_
+ _40453_ overlaps _37667_
+ _40457_ overlaps _39862_
+ _40458_ overlaps _38856_
+ _40459_ overlaps _37706_
+ _40460_ overlaps _37664_
+ _40461_ overlaps _36955_
+ _40463_ overlaps _39831_
+ _40464_ overlaps _39847_
+ _40468_ overlaps _39484_
+ _40483_ overlaps _36693_
+ _40487_ overlaps _35991_
+ _40491_ overlaps _28704_
+ _40492_ overlaps _30409_
+ _40499_ overlaps _36764_
+ _40500_ overlaps _39820_
+ _40502_ overlaps _31827_
+ _40504_ overlaps _40079_
+ _40512_ overlaps _40099_
+ _40516_ overlaps _32283_
+ _40521_ overlaps _37004_
+ _40522_ overlaps _36979_
+ _40540_ overlaps _27986_
+ _40541_ overlaps _25528_
+ _40542_ overlaps _30096_
+ _40546_ overlaps _36975_
+ _40547_ overlaps _38399_
+ _40561_ overlaps _36975_
+ _40569_ overlaps _40498_
+ _40570_ overlaps _37484_
+ _40573_ overlaps _31524_
+ _40577_ overlaps _37415_
+ _40592_ overlaps _36975_
+ _40596_ overlaps _36987_
+ _40601_ overlaps _36987_
+ _40696_ overlaps _36536_
+ _40697_ overlaps _39445_
+ _40698_ overlaps _39445_
+ _40699_ overlaps _40158_
+ _40701_ overlaps _36991_
+ _40702_ overlaps _26097_
+ _40706_ overlaps _36768_
+ _40707_ overlaps _36009_
+ _40711_ overlaps _40523_
+ _40713_ overlaps _36982_
+ _40714_ overlaps _26114_
+ _40715_ overlaps _40536_
+ _40720_ overlaps _40539_
+ _40724_ overlaps _39118_
+ _40726_ overlaps _31871_
+ _40727_ overlaps _31473_
+ _40728_ overlaps _35624_
+ _40736_ overlaps _40476_
+ _40737_ overlaps _37700_
+ _40738_ overlaps _36699_
+ _40739_ overlaps _31461_
+ _40741_ overlaps _40471_
+ _40742_ overlaps _26114_
+ _40744_ overlaps _31621_
+ _40745_ overlaps _26120_
+ _40747_ overlaps _40505_
+ _40748_ overlaps _40503_
+ _40749_ overlaps _39445_
+ _40752_ overlaps _40533_
+ _40753_ overlaps _40494_
+ _40754_ overlaps _40478_
+ _40756_ overlaps _40523_
+ _40758_ overlaps _37029_
+ _40761_ overlaps _37011_
+ _40763_ overlaps _37026_
+ _40764_ overlaps _39444_
+ _40767_ overlaps _36976_
+ _40774_ overlaps _40142_
+ _40867_ overlaps _26705_
+ _41061_ overlaps _36569_
+ _41064_ overlaps _25438_
+ _41065_ overlaps _37658_
+ _41068_ overlaps _39748_
+ _41072_ overlaps _25439_
+ _41075_ overlaps _31329_
+ _41076_ overlaps _31332_
+ _41084_ overlaps _32640_
+ _41090_ overlaps _28193_
+ _41094_ overlaps _39107_
+ _41098_ overlaps _39462_
+ _41099_ overlaps _36761_
+ _41103_ overlaps _36739_
+ _41105_ overlaps _40732_
+ _41106_ overlaps _39104_
+ _41107_ overlaps _35987_
+ _41108_ overlaps _33382_
+ _41112_ overlaps _40751_
+ _41117_ overlaps _39104_
+ _41119_ overlaps _40530_
+ _41123_ overlaps _38744_
+ _41125_ overlaps _30089_
+ _41140_ overlaps _38740_
+ _41153_ overlaps _41108_
+ _41167_ overlaps _41161_
+ _41170_ overlaps _37503_
+ _41211_ overlaps _40538_
+ _41214_ overlaps _37889_
+ _41299_ overlaps _37503_
+ _41300_ overlaps _26113_
+ _41301_ overlaps _41095_
+ _41305_ overlaps _39772_
+ _41306_ overlaps _31667_
+ _41308_ overlaps _39733_
+ _41310_ overlaps _39813_
+ _41312_ overlaps _39769_
+ _41313_ overlaps _40107_
+ _41315_ overlaps _37690_
+ _41374_ overlaps _39149_
+ _41375_ overlaps _40395_
+ _41623_ overlaps _41098_
+ _41951_ overlaps _25529_
+ _41970_ overlaps _36701_
+ _41972_ overlaps _37639_
+ _42078_ overlaps _32288_
+ _42081_ overlaps _36757_
+ _42938_ overlaps _36719_
+ _42974_ overlaps _37642_
+ _42988_ overlaps _37160_
+ _42990_ overlaps _37634_
+ _42991_ overlaps _40730_
+ _42993_ overlaps _37639_
+ _42994_ overlaps _40730_
+ _42999_ overlaps _36511_
+ _44627_ overlaps _35938_
+ _44630_ overlaps _35938_
+ _44631_ overlaps _39505_
+ _44633_ overlaps _39505_
+ _44638_ overlaps _33122_
+ _44650_ overlaps _39304_
+ _44654_ overlaps _39642_
+ _44659_ overlaps _31725_
+ _44672_ overlaps _39304_
+ _46391_ overlaps _37459_
+ _46392_ overlaps _39342_
+ _47207_ overlaps _38253_
+ input20 overlaps _31378_
+ input30 overlaps _31215_
+ input39 overlaps _33122_
+ input60 overlaps _31378_
+ input65 overlaps _30544_
+ input76 overlaps _37194_
+ input86 overlaps _37093_
+ input94 overlaps _37095_
+ output250 overlaps input43
+ output303 overlaps _36425_
+ output320 overlaps _39014_
+ output360 overlaps _35063_
+ output401 overlaps input43
+ repeater454 overlaps _31840_
+ repeater457 overlaps _38071_
+[WARNING DPL-0006] Site check failed (17).
+ input21
+ output188
+ output215
+ output229
+ output240
+ output271
+ output322
+ output342
+ output343
+ output344
+ output345
+ output361
+ output363
+ output365
+ output378
+ output394
+ output406

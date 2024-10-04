@@ -1,0 +1,230 @@
+[INFO]: Current run directory is /openLANE_flow/designs/picorv32a_ankit/runs/optimize
+[INFO]: Preparing LEF Files
+[INFO]: Extracting the number of available metal layers from /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef
+[INFO]: The number of available metal layers is 6
+[INFO]: The available metal layers are li1 met1 met2 met3 met4 met5
+[INFO]: Merging LEF Files...
+[INFO]: Merging the following extra LEFs: /openLANE_flow/designs/picorv32a_ankit/src/sky130_vsdinv.lef
+[INFO]: Trimming Liberty...
+[INFO]: Generating Exclude List...
+[INFO]: Storing configs into config.tcl ...
+[INFO]: Preparation complete
+[INFO]: Running Synthesis...
+[INFO]: current step index: 66
+[INFO]: Changing netlist from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/synthesis/picorv32a_ankit.synthesis.v to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/synthesis/picorv32a_ankit.synthesis.v
+[INFO]: Running Static Timing Analysis...
+[INFO]: current step index: 67
+[INFO]: Synthesis was successful
+[WARNING]: A run for picorv32a_ankit with tag 'optimize' already exists. Pass -overwrite option to overwrite it
+[INFO]: Now you can run commands that pick up where 'optimize' left off
+[INFO]: Current run directory is /openLANE_flow/designs/picorv32a_ankit/runs/optimize
+[INFO]: Sourcing /openLANE_flow/designs/picorv32a_ankit/runs/optimize/config.tcl
+Any changes to the DESIGN config file will NOT be applied
+[INFO]: Storing configs into config.tcl ...
+[INFO]: Preparation complete
+[INFO]: Running Floorplanning...
+[INFO]: Running Initial Floorplanning...
+[INFO]: current step index: 1
+[ERROR]: during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/optimize/logs/floorplan/1-verilog2def.openroad.log"
+[ERROR]: Exit code: 1
+[ERROR]: Last 10 lines:
+child process exited abnormally
+
+[ERROR]: Please check openroad  log file
+[ERROR]: Dumping to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/error.log
+[INFO]: Calculating Runtime From the Start...
+[INFO]: Flow failed for picorv32a_ankit/01-10_17-09 in 0h0m12s
+[INFO]: Generating Final Summary Report...
+[INFO]: Design Name: picorv32a_ankit
+Run Directory: /openLANE_flow/designs/picorv32a_ankit/runs/optimize
+Source not found.
+----------------------------------------
+
+LVS Summary:
+Source: /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/lvs/picorv32a_ankit.lvs_parsed.gds.log
+Source not found.
+----------------------------------------
+
+Antenna Summary:
+No antenna report found.
+[INFO]: check full report here: /openLANE_flow/designs/picorv32a_ankit/runs/optimize/reports/final_summary_report.csv
+[ERROR]: Flow Failed.
+[INFO]: Running Initial Floorplanning...
+[INFO]: current step index: 2
+[ERROR]: during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/optimize/logs/floorplan/2-verilog2def.openroad.log"
+[ERROR]: Exit code: 1
+[ERROR]: Last 10 lines:
+child process exited abnormally
+
+[ERROR]: Please check openroad  log file
+[ERROR]: Dumping to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/error.log
+[INFO]: Using design configuration at /openLANE_flow/designs/picorv32a/config.tcl
+[INFO]: Sourcing Configurations from /openLANE_flow/designs/picorv32a/config.tcl
+[INFO]: PDKs root directory: /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks
+[INFO]: PDK: sky130A
+[INFO]: Setting PDKPATH to /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A
+[INFO]: Standard Cell Library: sky130_fd_sc_hd
+[INFO]: Sourcing Configurations from /openLANE_flow/designs/picorv32a/config.tcl
+[WARNING]: A run for picorv32a_ankit with tag 'optimize' already exists. Pass -overwrite option to overwrite it
+[INFO]: Now you can run commands that pick up where 'optimize' left off
+[INFO]: Current run directory is /openLANE_flow/designs/picorv32a_ankit/runs/optimize
+[INFO]: Sourcing /openLANE_flow/designs/picorv32a_ankit/runs/optimize/config.tcl
+Any changes to the DESIGN config file will NOT be applied
+[INFO]: Storing configs into config.tcl ...
+[INFO]: Preparation complete
+[INFO]: Running Floorplanning...
+[INFO]: Running Initial Floorplanning...
+[INFO]: current step index: 3
+[INFO]: Core area width: 574.54
+[INFO]: Core area height: 573.92
+[INFO]: Changing layout from 0 to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/3-verilog2def_openroad.def
+[INFO]: Running IO Placement...
+[INFO]: current step index: 4
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/3-verilog2def_openroad.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/4-ioPlacer.def
+[INFO]: Running Global Placement...
+[INFO]: current step index: 5
+[INFO]: Global placement was successful
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/4-ioPlacer.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/placement/5-replace.def
+[INFO]: Running Basic Macro Placement
+[INFO]: current step index: 6
+[ERROR]: during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_basic_mp.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/optimize/logs/placement/6-basic_mp.log"
+[ERROR]: Exit code: 1
+[ERROR]: Last 10 lines:
+child process exited abnormally
+
+[ERROR]: Please check openroad  log file
+[ERROR]: Dumping to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/error.log
+[INFO]: Running Initial Floorplanning...
+[INFO]: current step index: 7
+[INFO]: Core area width: 574.54
+[INFO]: Core area height: 573.92
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/placement/5-replace.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/7-verilog2def_openroad.def
+[INFO]: Running IO Placement...
+[INFO]: current step index: 8
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/7-verilog2def_openroad.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/8-ioPlacer.def
+[INFO]: Running Tap/Decap Insertion...
+[INFO]: current step index: 9
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/8-ioPlacer.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/floorplan/picorv32a_ankit.floorplan.def
+[INFO]: Running Placement...
+[INFO]: Running Global Placement...
+[INFO]: current step index: 10
+[INFO]: Global placement was successful
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/floorplan/picorv32a_ankit.floorplan.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/placement/10-replace.def
+[INFO]: Skipping OpenPhySyn Timing Optimizations.
+[INFO]: Running Resizer Design Optimizations...
+[INFO]: Generating Exclude List...
+[INFO]: Creating ::env(DONT_USE_CELLS)...
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/placement/10-replace.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/placement/10-resizer.def
+[INFO]: Writing Verilog...
+[INFO]: current step index: 11
+[INFO]: Changing netlist from 0 to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/synthesis/picorv32a_ankit.synthesis_optimized.v
+[INFO]: Running Static Timing Analysis...
+[INFO]: current step index: 12
+[INFO]: Running Detailed Placement...
+[INFO]: current step index: 13
+[ERROR]: during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_opendp.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/optimize/logs/placement/13-opendp.log"
+[ERROR]: Exit code: 1
+[ERROR]: Last 10 lines:
+child process exited abnormally
+
+[ERROR]: Please check openroad  log file
+[ERROR]: Dumping to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/error.log
+[INFO]: Running Initial Floorplanning...
+[INFO]: current step index: 14
+[INFO]: Core area width: 574.54
+[INFO]: Core area height: 573.92
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/placement/10-resizer.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/14-verilog2def_openroad.def
+[INFO]: Running IO Placement...
+[INFO]: current step index: 15
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/14-verilog2def_openroad.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/15-ioPlacer.def
+[INFO]: Running Tap/Decap Insertion...
+[INFO]: current step index: 16
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/15-ioPlacer.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/floorplan/picorv32a_ankit.floorplan.def
+[INFO]: Running Tap/Decap Insertion...
+[INFO]: current step index: 17
+[ERROR]: during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_tapcell.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/optimize/logs/floorplan/17-tapcell.log"
+[ERROR]: Exit code: 1
+[ERROR]: Last 10 lines:
+child process exited abnormally
+
+[ERROR]: Please check openroad  log file
+[ERROR]: Dumping to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/error.log
+[INFO]: Running Initial Floorplanning...
+[INFO]: current step index: 18
+[INFO]: Core area width: 574.54
+[INFO]: Core area height: 573.92
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/floorplan/picorv32a_ankit.floorplan.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/18-verilog2def_openroad.def
+[INFO]: Running IO Placement...
+[INFO]: current step index: 19
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/18-verilog2def_openroad.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/19-ioPlacer.def
+[INFO]: Running Tap/Decap Insertion...
+[INFO]: current step index: 20
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/19-ioPlacer.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/floorplan/picorv32a_ankit.floorplan.def
+[INFO]: Running Placement...
+[INFO]: Running Global Placement...
+[INFO]: current step index: 21
+[INFO]: Global placement was successful
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/floorplan/picorv32a_ankit.floorplan.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/placement/21-replace.def
+[INFO]: Skipping OpenPhySyn Timing Optimizations.
+[INFO]: Running Resizer Design Optimizations...
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/placement/21-replace.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/placement/21-resizer.def
+[INFO]: Writing Verilog...
+[INFO]: current step index: 22
+[INFO]: Changing netlist from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/synthesis/picorv32a_ankit.synthesis_optimized.v to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/synthesis/picorv32a_ankit.synthesis_optimized.v
+[INFO]: Running Static Timing Analysis...
+[INFO]: current step index: 23
+[INFO]: Running Detailed Placement...
+[INFO]: current step index: 24
+[ERROR]: during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_opendp.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/optimize/logs/placement/24-opendp.log"
+[ERROR]: Exit code: 1
+[ERROR]: Last 10 lines:
+child process exited abnormally
+
+[ERROR]: Please check openroad  log file
+[ERROR]: Dumping to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/error.log
+[INFO]: Running Initial Floorplanning...
+[INFO]: current step index: 25
+[INFO]: Core area width: 574.54
+[INFO]: Core area height: 573.92
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/placement/21-resizer.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/25-verilog2def_openroad.def
+[INFO]: Running IO Placement...
+[INFO]: current step index: 26
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/25-verilog2def_openroad.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/26-ioPlacer.def
+[INFO]: Running Tap/Decap Insertion...
+[INFO]: current step index: 27
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/26-ioPlacer.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/floorplan/picorv32a_ankit.floorplan.def
+[INFO]: Running Placement...
+[INFO]: Running Global Placement...
+[INFO]: current step index: 28
+[INFO]: Global placement was successful
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/floorplan/picorv32a_ankit.floorplan.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/placement/28-replace.def
+[INFO]: Skipping OpenPhySyn Timing Optimizations.
+[INFO]: Running Resizer Design Optimizations...
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/placement/28-replace.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/placement/28-resizer.def
+[INFO]: Writing Verilog...
+[INFO]: current step index: 29
+[INFO]: Changing netlist from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/synthesis/picorv32a_ankit.synthesis_optimized.v to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/results/synthesis/picorv32a_ankit.synthesis_optimized.v
+[INFO]: Running Static Timing Analysis...
+[INFO]: current step index: 30
+[INFO]: Running Detailed Placement...
+[INFO]: current step index: 31
+[ERROR]: during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_opendp.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/optimize/logs/placement/31-opendp.log"
+[ERROR]: Exit code: 1
+[ERROR]: Last 10 lines:
+child process exited abnormally
+
+[ERROR]: Please check openroad  log file
+[ERROR]: Dumping to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/error.log
+[INFO]: Running Initial Floorplanning...
+[INFO]: current step index: 32
+[INFO]: Core area width: 574.54
+[INFO]: Core area height: 573.92
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/placement/28-resizer.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/32-verilog2def_openroad.def
+[INFO]: Running Initial Floorplanning...
+[INFO]: current step index: 33
+[INFO]: Core area width: 574.54
+[INFO]: Core area height: 573.92
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/32-verilog2def_openroad.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/33-verilog2def_openroad.def
+[INFO]: Running IO Placement...
+[INFO]: current step index: 34
+[INFO]: Changing layout from /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/33-verilog2def_openroad.def to /openLANE_flow/designs/picorv32a_ankit/runs/optimize/tmp/floorplan/34-ioPlacer.def

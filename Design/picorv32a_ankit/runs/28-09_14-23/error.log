@@ -1,0 +1,4 @@
+during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_basic_mp.tcl |& tee >&@stdout /openLANE_flow/designs/picorv32a_ankit/runs/28-09_14-23/logs/placement/6-basic_mp.log"
+Last 10 lines:
+child process exited abnormally
+
