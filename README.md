@@ -20,22 +20,8 @@ Google's Opensource PDKs are used:-
 
 ## Design and Final Results:- 
 Modified version of picorv32a, named as picorv32a_ankit modified as a part of this internship was used.
-- All Design files can be found in folder:- [picorv32a_ankit](/Design/picorv32a_ankit/)
+- Complete Design and implementation files and results can be found in folder:- [picorv32a_ankit](/Design/picorv32a_ankit/)
 
-- Final resultant SPEF file which is the final output intended form this internship can be found here:-
-[picorv32a_ankit.spef](/Design/picorv32a_ankit/runs/final/results/routing/picorv32a_ankit.spef)
-
-Image of final routed spef
-![Png of final routed spef](/images/final_post_routing_chip.PNG)
-
-Placement Result image
-![Placement Result image](/images/picorv32a_ankit.placement.def.png)
-
-Post Routing STA results:- 
-Setup Timing:-
-![post_routing_sta_setup_timing](/images/final_post_routing_sta.PNG)
-Hold Timing:- 
-![post_routing_sta_hold_timing](/images/final_post_routing_sta_hold.PNG)
 - Design Constraints
 ```
 Maximum capable frequency:- 66.66Mhz
@@ -50,6 +36,24 @@ No. of Dflipp flops:- 1613
 Flop Ratio:- 1613/14876=0.108429
 
 ```
+
+- Final resultant SPEF file which is the final output intended form this internship can be found here:-
+[picorv32a_ankit.spef](/Design/picorv32a_ankit/runs/final/results/routing/picorv32a_ankit.spef)
+
+Image of final routed spef
+![Png of final routed spef](/images/final_post_routing_chip.PNG)
+
+Placement Result image
+![Placement Result image](/images/picorv32a_ankit.placement.def.png)
+
+Post Routing STA results:- 
+
+Setup Timing:-
+![post_routing_sta_setup_timing](/images/final_post_routing_sta.PNG)
+
+Hold Timing:- 
+![post_routing_sta_hold_timing](/images/final_post_routing_sta_hold.PNG)
+
 - All intermediatory results  can be found at:- [picorv32a_ankit results](/Design/picorv32a_ankit/runs/final/results)
 
 
@@ -95,3 +99,5 @@ Adding Poly.9 DRC rule
 
 
 
+## For TA please follow the last link on every page to verify every section
+Start here [ISA_and_RTL](/ISA_and_RTL/)

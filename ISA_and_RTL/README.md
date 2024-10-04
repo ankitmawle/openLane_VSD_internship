@@ -188,3 +188,5 @@ Explanation: This optional interface helps in debugging by indicating when the p
 
 
 
+## Next step is to carry out synthesis
+yoou can find [Synthesis discussion here](/Synthesis/)
