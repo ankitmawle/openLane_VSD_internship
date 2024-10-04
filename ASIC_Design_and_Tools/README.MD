@@ -91,6 +91,11 @@ package require openlane 0.9
 ![images](/images/initialize.PNG)
 
 **Base OpenLane Flow Commands**
+- Load a design
+```
+prep --design __design_name__ -tag __tag_name(optional)__ -overwrite(optioinal_to_overwrite_tag)__
+```
+
 - Print loaded environment Value
 ```
 echo $::env(__KEY__)
@@ -209,6 +214,15 @@ drc why
 ```
 grid x_spacing y_spacing x_origin y_origin
 ```
+- Extract to .ext file
+```
+extract all
+```
+- Extract to spice file with parasitic capacitances
+```
+ext2spice cthresh __cthreshold_value__ rthresh __rthreshold_value__
+ext2spice
+```
 
 
 **All other Commands can be found at** :- http://opencircuitdesign.com/magic/userguide.html
@@ -275,4 +289,60 @@ replace __cell_instance__ __standard_cell_to_be_replaced_with__
 ```
 
 
+## Ngspice
+ngspice is the open source spice simulator for electric and electronic circuits.
 
+Command to innstall 
+```
+sudo apt-get install ngspice
+```
+![ngspice](/images/ngspice.jpg)
+
+Generate simulation
+```
+ngspice __.spice_file__
+```
+
+**.spice commands** to be included in spice file
+```
+.option __option__=0.01u    # add options for simulation
+
+.include __path_to_lib__    # include libraries of basic components
+
+__Component_name__ __Port_connections__ ... __included_model_from_library__ __other_constraints__=__connstraiint_value__ ...       # Add components and theiir connectioins
+
+.tran __analysis_period__ __total_simulatioinn_duration__    # create a transfer analysis
+
+.control
+
+run                        # Start executing the simulation
+
+```
+
+# PDKs
+Process Design Kit is combination of Standard Cells, Macros, DRC rules, and other libraries provided by **Foundries** to ASIC Developers to maintain proper manufacturability with foundry's technology node
+
+- We would be using SKY Water 130nm PDKs, which is opensource PDK for  IC development byy Google
+
+Key Components of a PDK:
+- Design Rules: 
+
+These specify the physical layout constraints, such as minimum spacing between components, layer thicknesses, and other critical parameters. Adhering to these rules ensures the manufacturability of the design.
+- Device Models: 
+
+Mathematical models that represent the electrical behavior of the transistors, resistors, capacitors, and other components at a particular process node (e.g., 180nm, 65nm, 7nm). These models are essential for accurate simulations.
+- Standard Cell Libraries: 
+
+Predefined libraries of standard cells (e.g., logic gates, flip-flops) optimized for the specific process technology. Designers use these cells to construct larger circuits.
+- Parasitic Extraction Rules: 
+
+Files that describe how parasitics (resistances, capacitances) should be extracted from a layout to ensure that post-layout simulations closely match real-world performance.
+- SPICE Models: 
+
+Simulation Program with Integrated Circuit Emphasis (SPICE) models that enable accurate electrical simulations of the circuit at the transistor level.
+- Physical Verification Tools:
+
+Tools and scripts for running checks like Design Rule Checks (DRC), Layout vs. Schematic (LVS) checks, and others to ensure the design meets the foundry's requirements.
+- Technology Files: 
+
+Files that define the layers used in the semiconductor process (e.g., metal layers, polysilicon, etc.) and their physical properties, such as thickness and dielectric constants.
