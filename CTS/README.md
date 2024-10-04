@@ -1,4 +1,4 @@
-# This Section will be upppdated soon
+# This Section will be updated soon
 
 
 ![CTS-results](/images/final_cts_done.PNG)

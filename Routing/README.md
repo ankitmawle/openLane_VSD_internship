@@ -1,4 +1,4 @@
-# This Section will be upppdated soon
+# This Section will be updated soon
 
 ![routing-progress](/images/routing%20in%20process.PNG)
 ![routing-results](/images/final_routing_with%200%20violations.PNG)

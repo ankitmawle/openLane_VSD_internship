@@ -1,4 +1,4 @@
-# This Section will be upppdated soon
+# This Section will be updated soon
 
 ![DRC_NRC_WELL](/images/nrc_nwell.4.PNG) 
 ![DRC_nwell_missing](/images/nwell_missing%20drc%20_rule.PNG)

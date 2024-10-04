@@ -1,4 +1,4 @@
-# This Section will be upppdated soon
+# This Section will be updated soon
 
 
 ![placement-results](/images/final_placement_done.PNG)
